@@ -27,7 +27,7 @@ You’re not allowed to use any Object Detection model on the images.
 ## Solution
 The Solution is in the partial_annotated.py file as a function. If the path for original_image, fully_annotated_image and partially_annotated_image (to save the result in a location with image.jpg at the end of the location) is given, the output will be stored in a path provided in the partially_annotated_image.<br>
 <br>
-To see the below process in the steps given below see the [de-annotation of dog and keep cat annotation.ipynb] file. It will give the better visulation of the process and filters applied.
+To see the below process in the steps given below see the file - [de-annotation of dog and keep cat annotation.ipynb]. It will give the better visulation of the process and filters applied.
 ### Steps
 - Loaded the original image and fully annotated image using opencv.
 - Applied **Gray Scale** to both the images to futher process the image.
